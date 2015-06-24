@@ -45,8 +45,10 @@ public class UserService implements IUserService{
 	}
 
 	public Response hello() {
-		// TODO Auto-generated method stub
-		return Response.ok("Nilamber Kumar").build();
+		
+		LoginResponse loginResponse=new LoginResponse();
+		loginResponse.setDispName("Nilamber Kumar");
+		return Response.ok(loginResponse).build();
 	}
 
 	

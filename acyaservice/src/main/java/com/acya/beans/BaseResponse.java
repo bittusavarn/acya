@@ -16,5 +16,7 @@ public abstract class BaseResponse implements Serializable {
 	public void setResponseCode(ResponseCode responseCode) {
 		this.respCode = responseCode;
 	} 
+	
+	//
 
 }
