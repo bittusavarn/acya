@@ -1,0 +1,44 @@
+.nrml{
+	font-style: normal;
+}
+.pd{
+	padding: 10px;
+}
+
+.ldr
+{
+	background-image: url("../res/loading.gif");
+	width: 207px;
+	height:207px;
+	background-repeat: no-repeat;
+	text-align: center;
+	float: inherit;
+}
+
+.gone
+{
+	display:none;
+}
+
+
+.visible
+{
+	display: block;
+}
+
+#hdr
+{
+	margin: 10px;
+	font-family: serif;
+	font-size: x-large;
+	font-weight: normal;
+	color: #337ab7;
+}
+a{
+	cursor: pointer; cursor: hand;
+}
+
+.pointer
+{
+	cursor: pointer; cursor: hand;
+}
